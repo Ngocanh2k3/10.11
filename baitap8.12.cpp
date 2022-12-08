@@ -289,27 +289,32 @@ int main(){
 	cout << HoTen(s) << endl;
 }
 /*--------------bai 12-----------*/{
+	//Bai 6
 	{
 		int n = 10;
 		int a[n] = {};
 		DaySobai12(n, a);
 		cout << endl;
 	}
+	//Bai 7, 8
 	{
 		int n = 10;
 		int a[n]= {1, 2, 3, 4, 5, 6, 7, 8, 9};
 		cout << TongDsbai12(n, a) << endl;
 		cout << Tbcbai12(n, a) << endl;
 	}
+	//Bai 9
 	{
 		int n = 3;
 		double a[n] = { 1, 2, 1};
 		double x = 2.345;	
 		cout << Calc(a, n, x) << endl;
 	}
+	//Bai 10
 	{
 		cout << XauSangSobai12("12.5") + 1 << endl;	
 	}
+	//Bai 11
 	{
 		char s[100] = "  nguyEn vAn   an   ";
 		cout << HoTenbai12(s) << endl;
